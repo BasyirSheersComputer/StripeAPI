@@ -5,9 +5,13 @@ ________________________________________
 
 Features
 •	Payment Processing: Seamlessly handle one-time and recurring payments.
+
 •	Customer Management: Create, retrieve, update, and delete customer data.
+
 •	Subscription Services: Manage subscription plans and billing cycles.
+
 •	Webhook Support: Listen and respond to Stripe events in real-time.
+
 •	Secure API Key Management: Sensitive credentials handled securely.
 ________________________________________
 
