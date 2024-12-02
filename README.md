@@ -3,7 +3,7 @@
 This project integrates with the Stripe API to manage payments, subscriptions, and customer billing in a secure and efficient manner. It is designed for developers to quickly implement Stripe functionalities in their applications.
 ________________________________________
 
-Features
+# Features
 
 •	Payment Processing: Seamlessly handle one-time and recurring payments.
 
@@ -16,14 +16,14 @@ Features
 •	Secure API Key Management: Sensitive credentials handled securely.
 ________________________________________
 
-Prerequisites
+# Prerequisites
 
 1.	Stripe Account: Create a Stripe account and configure your API keys.
 2.	Stripe CLI: Install the Stripe CLI for testing webhooks.
 3.	.NET SDK: Install the .NET SDK (if applicable).
 ________________________________________
 
-Setup
+# Setup
 
 1. Clone the Repository
 bash
@@ -57,7 +57,7 @@ Copy code
 }
 ________________________________________
 
-Usage
+# Usage
 1. Start the Application
 •	For .NET Projects:
 bash
@@ -80,13 +80,13 @@ stripe listen --forward-to http://localhost:5000/api/webhooks
 •	Update your webhook URL in the Stripe Dashboard.
 ________________________________________
 
-Best Practices
+# Best Practices
 1.	Secure API Keys: Use environment variables or a secret management tool like Azure Key Vault or AWS Secrets Manager.
 2.	Enable Webhook Signing: Validate webhook events by verifying their signatures.
 3.	Handle Errors Gracefully: Ensure robust error handling for API responses.
 ________________________________________
 
-Testing
+# Testing
 
 •	Use Stripe's test keys and test card numbers for development.
 
@@ -97,19 +97,18 @@ Copy code
 stripe trigger payment_intent.succeeded
 ________________________________________
 
-License
+# License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
 ________________________________________
 
-Contact
+# Contact
 
 For questions or support, please contact:
 
-Ahmad Basyir Azahari
+**Ahmad Basyir Azahari**
 
-o	Email: a.basyir94@gmail.com
-
-o	GitHub: BasyirSheersComputer
+- Email: abasyir@sheerscomputer.com
+- GitHub: BasyirSheersComputer
 ________________________________________
 
