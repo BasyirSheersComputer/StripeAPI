@@ -1,4 +1,4 @@
-**Stripe API Integration**
+# Stripe API Integration
 
 This project integrates with the Stripe API to manage payments, subscriptions, and customer billing in a secure and efficient manner. It is designed for developers to quickly implement Stripe functionalities in their applications.
 ________________________________________
