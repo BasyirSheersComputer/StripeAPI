@@ -4,6 +4,8 @@ This project integrates with the Stripe API to manage payments, subscriptions, a
 
 
 
+
+
 ## Features
 
 •	Payment Processing: Seamlessly handle one-time and recurring payments.
@@ -18,11 +20,15 @@ This project integrates with the Stripe API to manage payments, subscriptions, a
 
 
 
+
+
 ## Prerequisites
 
 1.	Stripe Account: Create a Stripe account and configure your API keys.
 2.	Stripe CLI: Install the Stripe CLI for testing webhooks.
 3.	.NET SDK: Install the .NET SDK (if applicable).
+
+
 
 
 
@@ -61,6 +67,8 @@ Copy code
 
 
 
+
+
 ## Usage
 1. Start the Application
 •	For .NET Projects:
@@ -85,10 +93,14 @@ stripe listen --forward-to http://localhost:5000/api/webhooks
 
 
 
+
+
 ## Best Practices
 1.	Secure API Keys: Use environment variables or a secret management tool like Azure Key Vault or AWS Secrets Manager.
 2.	Enable Webhook Signing: Validate webhook events by verifying their signatures.
 3.	Handle Errors Gracefully: Ensure robust error handling for API responses.
+
+
 
 
 
@@ -104,9 +116,13 @@ stripe trigger payment_intent.succeeded
 
 
 
+
+
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
+
+
 
 
 
