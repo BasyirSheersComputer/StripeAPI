@@ -3,7 +3,7 @@
 This project integrates with the Stripe API to manage payments, subscriptions, and customer billing in a secure and efficient manner. It is designed for developers to quickly implement Stripe functionalities in their applications.
 
 
-
+<br><br>
 
 
 ## Features
@@ -19,7 +19,7 @@ This project integrates with the Stripe API to manage payments, subscriptions, a
 •	Secure API Key Management: Sensitive credentials handled securely.
 
 
-
+<br><br>
 
 
 ## Prerequisites
@@ -29,7 +29,7 @@ This project integrates with the Stripe API to manage payments, subscriptions, a
 3.	.NET SDK: Install the .NET SDK (if applicable).
 
 
-
+<br><br>
 
 
 ## Setup
@@ -66,7 +66,7 @@ Copy code
 }
 
 
-
+<br><br>
 
 
 ## Usage
@@ -92,7 +92,7 @@ stripe listen --forward-to http://localhost:5000/api/webhooks
 •	Update your webhook URL in the Stripe Dashboard.
 
 
-
+<br><br>
 
 
 ## Best Practices
@@ -101,7 +101,7 @@ stripe listen --forward-to http://localhost:5000/api/webhooks
 3.	Handle Errors Gracefully: Ensure robust error handling for API responses.
 
 
-
+<br><br>
 
 
 ## Testing
@@ -115,7 +115,7 @@ Copy code
 stripe trigger payment_intent.succeeded
 
 
-
+<br><br>
 
 
 ## License
@@ -123,7 +123,7 @@ stripe trigger payment_intent.succeeded
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 
-
+<br><br>
 
 
 ## Contact
