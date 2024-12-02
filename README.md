@@ -4,6 +4,7 @@ This project integrates with the Stripe API to manage payments, subscriptions, a
 ________________________________________
 
 Features
+
 •	Payment Processing: Seamlessly handle one-time and recurring payments.
 
 •	Customer Management: Create, retrieve, update, and delete customer data.
@@ -16,12 +17,14 @@ Features
 ________________________________________
 
 Prerequisites
+
 1.	Stripe Account: Create a Stripe account and configure your API keys.
 2.	Stripe CLI: Install the Stripe CLI for testing webhooks.
 3.	.NET SDK: Install the .NET SDK (if applicable).
 ________________________________________
 
 Setup
+
 1. Clone the Repository
 bash
 Copy code
@@ -84,6 +87,7 @@ Best Practices
 ________________________________________
 
 Testing
+
 •	Use Stripe's test keys and test card numbers for development.
 
 •	Simulate webhooks using the Stripe CLI:
@@ -94,10 +98,12 @@ stripe trigger payment_intent.succeeded
 ________________________________________
 
 License
+
 This project is licensed under the MIT License. See the LICENSE file for details.
 ________________________________________
 
 Contact
+
 For questions or support, please contact:
 
 Ahmad Basyir Azahari
