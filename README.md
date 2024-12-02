@@ -85,7 +85,9 @@ ________________________________________
 
 Testing
 •	Use Stripe's test keys and test card numbers for development.
+
 •	Simulate webhooks using the Stripe CLI:
+
 bash
 Copy code
 stripe trigger payment_intent.succeeded
@@ -97,8 +99,11 @@ ________________________________________
 
 Contact
 For questions or support, please contact:
-•	Ahmad Basyir Azahari
+
+Ahmad Basyir Azahari
+
 o	Email: a.basyir94@gmail.com
+
 o	GitHub: BasyirSheersComputer
 ________________________________________
 
