@@ -1,17 +1,21 @@
-Stripe API Integration
+**Stripe API Integration**
+
 This project integrates with the Stripe API to manage payments, subscriptions, and customer billing in a secure and efficient manner. It is designed for developers to quickly implement Stripe functionalities in their applications.
 
 Features
-Payment Processing: Seamlessly handle one-time and recurring payments.
-Customer Management: Create, retrieve, update, and delete customer data.
-Subscription Services: Manage subscription plans and billing cycles.
-Webhook Support: Listen and respond to Stripe events in real-time.
-Secure API Key Management: Sensitive credentials handled securely.
-Prerequisites
-Stripe Account with API keys configured.
-Stripe CLI (optional, for testing webhooks).
-.NET SDK (if applicable).
-Setup
+1. Payment Processing: Seamlessly handle one-time and recurring payments.
+2. Customer Management: Create, retrieve, update, and delete customer data.
+3. Subscription Services: Manage subscription plans and billing cycles.
+4. Webhook Support: Listen and respond to Stripe events in real-time.
+5. Secure API Key Management: Sensitive credentials handled securely.
+
+
+**Prerequisites**
+- Stripe Account with API keys configured.
+- Stripe CLI (optional, for testing webhooks).
+- .NET SDK (if applicable).
+
+**Setup**
 1. Clone the Repository
 bash
 Copy code
