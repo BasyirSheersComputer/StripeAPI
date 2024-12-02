@@ -1,0 +1,12 @@
+[
+  {
+    "ContainingType": "StripeApi.Controllers.CheckoutApiController",
+    "Method": "Create",
+    "RelativePath": "api/CheckoutApi/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
